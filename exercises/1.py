@@ -1,0 +1,23 @@
+#2.Operations
+print(3+4)
+print(3-4)
+print(3*4)
+print(3/4)
+print(3**4)
+print(3//4)
+print("\n")
+#Strings
+print("Akshat")
+print("Bhandari")
+print("India")
+print("I am enjoying learning Python")
+print("\n")
+#Data Types
+print(type(10))
+print(type(9.8))
+print(type(3.14))
+print(type(4-4j))
+print(type(['Asabeneh', 'Python', 'Finland']))
+print(type('Akshat'))
+print(type('Bhandari'))
+print(type('India'))
