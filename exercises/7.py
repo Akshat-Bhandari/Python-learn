@@ -22,3 +22,8 @@ del B
 print(len(age))
 AGE=list(age)
 print(len(AGE))
+
+S="I am a teacher and I love to inspire and teach people"
+W=S.split()
+w=set(W)
+print("The number of unique words in the sentence are {0}".format(len(w)))
