@@ -59,3 +59,22 @@ elif f not in fruits:
     fruits.append(f)
     print(fruits)
 print("\n")
+person={'first_name': 'Asabeneh','last_name': 'Yetayeh','age': 25,'country': 'Finland',
+    'is_married': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {'street': 'Space street','zipcode': '02210'}
+    }
+if 'skills' in person:
+    print(person['skills'][len(person['skills'])//2])
+    if 'Python' in person['skills']:
+        print("Person is skilled in Python:"),print('Python' in person['skills'])
+    if 'Javascript' and 'React'in person['skills']:
+        print("He is a front end developer.")
+    if 'Node' and 'Python' and 'MongoDB' in person['skills']:
+        print("He is a backend developer.")
+    if 'Node'and 'React' and 'MongoDB' in person['skills']:
+        print("He is a full stack developer.")
+    else:
+        print("unknown title")
+if person['is_married'] == True and person['country']=='Finland':
+    print("{0} {1} lives in {2}.He is married.".format(person['first_name'],person['last_name'],person['country']))
